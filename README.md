@@ -1,5 +1,6 @@
 # E-commerce-Project
 Fashionista :
+
 1.Customers can see the product and can place orders i.e. without login.
 2.Admin (Owner) and employee can place orders for visiting customers.
 3. After that automatically an invoice will be generated. 
