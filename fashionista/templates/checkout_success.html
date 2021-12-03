@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="col-6 mx-auto">
+        <h2>
+           Thank You So much for visiting and Shopping on Fashionista!!!</h2><br>
+            <form method="POST">
+                {% csrf_token %}
+               <button type="submit" class="btn btn-dark">Invoice</button>
+                <h3>Click on 'invoice' to print your invoice</h3>
+            </form>
+        </div>
+    </div>
+{% endblock %}
